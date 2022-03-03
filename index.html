@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Kalam:wght@300&family=Oooh+Baby&family=Qwitcher+Grypen:wght@700&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+    <title>Portafolio | Aranza Mayorga</title>
+</head>
+
+<body>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Oooh+Baby&family=Qwitcher+Grypen:wght@700&family=Sue+Ellen+Francisco&display=swap');
+    </style>
+
+    <style>
+        h1 {color:#893602; font-size:60px; font-family: 'Balsamiq Sans', cursive;}
+        h2 {color:rgb(0, 0, 0); font-size:45px; font-family:  'Sue Ellen Francisco', cursive;}
+        h3 {color:rgb(255, 255, 255); font-size:40px; font-family: 'Oooh Baby', cursive;}
+        h4 {color:rgb(255, 255, 255); font-size:30px; font-family: 'Sue Ellen Francisco', cursive;}
+        p {color:rgb(0, 0, 0); font-size:25px; font-family: 'Kalam', cursive; text-align: justify;}
+    </style>
+
+    <section id="sidebar">
+        <div class="w3-sidebar w3-bar-block" style="width:15%">
+            <h3 class="w3-bar-item">Menú</h3>
+            <a href="#inicio" class="w3-bar-item w3-button"><h4>Inicio</h4></a>
+            <a href="#uno" class="w3-bar-item w3-button"><h4>Quién soy</h4></a>
+            <a href="#dos" class="w3-bar-item w3-button"><h4>Trabajos</h4></a>
+            <a href="#tres" class="w3-bar-item w3-button"><h4>Contacto</h4></a>
+        </div>
+    </section>
+
+    <style>
+        .w3-sidebar{
+            background-color: #B87E42;
+            text-align: left;
+        }
+    </style>
+
+    <div style="margin-left:15%">
+
+    <section id="inicio" class="bienvenido" >
+        <div class="w3-display-container">
+            <img src="Imágenes/fondo1.png" width="100%">
+            <div class="w3-display-left w3-large"><h1>Me llamo Aranza Mayorga</h1></rb><h2>¡Bienvenidos a mi portafolio!</h2></div>
+        </div>
+    </section>
+
+    <style>
+        h1, h2{
+            margin: 30px;
+            padding: 30px;
+            line-height: 25px;
+        }
+    </style>
+
+    <section id="uno" class="presentación">
+        <div class="w3-display-container">
+            <img src="Imágenes/fondo2.png" width="100%">
+            <div class="w3-display-middle w3-large"><p>Desarrollo y diseño páginas web,  me encargo de plasmar la idea del cliente en cada trabajo que realizo. Como persona organizada y con gran motivación, soy capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de mí en cualquier proyecto.</p></div>
+        </div>
+    </section>
+
+    <section id="dos" class="trabajos">
+        <div class="w3-display-container">
+            <img src="Imágenes/fondo3.png" width="100%">
+            <div class="w3-display-topmiddle w3-large">
+        </div>
+
+        <div class="w3-display-middle w3-large">
+
+            <div class="w3-content w3-display-container">
+              <img class="mySlides" src="Imágenes/pagweb.jpg" style="height: 500px ;width: 350px;">
+              <img class="mySlides" src="Imágenes/advert.png" style="height: 500px ;width: 650px;">
+              <img class="mySlides" src="Imágenes/feed.png" style="height: 500px; width: 350px;">
+            
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            
+            <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+            </div>
+        </div>
+
+        </section>
+
+        <section id="tres" class="contacto">
+            <div class="w3-display-container">
+                <div class="container">
+                </div><img src="Imágenes/fondo4.png" style="width: 100%;">
+
+                    <div class="w3-display-bottommiddle w3-large">
+                        <div class="icons">
+                            <a href="https://www.instagram.com/?hl=es"><span class="label"><img class="ig" src="Imágenes/instagram.png" height="40px" width="40px"></span></a>
+                        </div>
+                    </div>
+
+                <div class="w3-display-topmiddle w3-large"><h2 style="text-align: center;">Contáctame</h2></br></div>
+                
+                <div class="w3-display-middle w3-large">
+                    <form class="w3-container">
+                        <label class="w3-text-black"><b>Nombre</b></label>
+                        <input class="w3-input w3-border" type="text">
+                        <label class="w3-text-black"><b>E-mail</b></label>
+                        <input class="w3-input w3-border" type="email">
+                        <label class="w3-text-black"><b>Mensaje</b></label>
+                        <input class="w3-input w3-border" type="text">
+                        <div class="botón"><button class="w3-btn">Enviar</button></div>
+                    </form>
+                </div>    
+                </div>
+                
+            </div>
+    
+            <style>
+                .w3-display-topmiddle{
+                    margin-top: 55px;
+                    padding: auto;
+                    letter-spacing: normal;
+                    line-height: 2%;
+                }
+
+                .w3-text-black{
+                    font-family: 'Kalam', cursive;
+                    margin: 15px;
+                    padding: 1px;
+                    line-height: 15%;
+                }
+
+                .w3-btn{
+                    background-color: #B87E42;
+                    padding: 10px;
+                    margin: 10px;
+                    font-family:'Balsamiq Sans', cursive;
+                    font-size: 15px;
+                    color:#000000
+                }
+
+                .w3-btn:hover{
+                    background-color: #844219;
+                    color: rgb(255, 255, 255);
+                    box-shadow: none;
+                }
+
+                .botón{
+                    text-align: center;
+                }
+
+                .icons{
+                    margin: 100% auto;
+                    padding-bottom: 90%;
+                    padding: 100% auto;
+                }
+
+                .ig{
+                    text-align: center;
+                }
+
+            </style>
+    
+        </section>
+    
+    </div>
+</body>
+
+</html>
